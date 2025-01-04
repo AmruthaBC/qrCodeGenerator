@@ -2,9 +2,8 @@
   "name": "qr-code-generator",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://amruthabc.github.io/qr-code-generator",
+  "homepage": "https://amruthabc.github.io/qrCodeGenerator",
   "dependencies": {
-    "gh-pages": "^6.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-qr-code": "^2.0.15",
@@ -15,6 +14,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "autoprefixer": "^10.0.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.0.0",
     "typescript": "^4.0.0"
   },
