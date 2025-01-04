@@ -2,7 +2,9 @@
   "name": "qr-code-generator",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://amruthabc.github.io/qr-code-generator",
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-qr-code": "^2.0.15",
@@ -17,6 +19,8 @@
     "typescript": "^4.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
